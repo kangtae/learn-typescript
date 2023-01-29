@@ -18,7 +18,7 @@ function startApp() {
       // TODO: 이름, 이메일, 주소 표시하기
     })
     .catch(function (error) {
-      console.log(error);
+      console.log(error);;
     });
 }
 
