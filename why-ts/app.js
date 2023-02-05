@@ -14,7 +14,7 @@ function startApp() {
     .get(url)
     .then(function (response) {
       console.log(response);
-      user = response.data;
+      user = response.data;;
       // TODO: 이름, 이메일, 주소 표시하기
     })
     .catch(function (error) {
